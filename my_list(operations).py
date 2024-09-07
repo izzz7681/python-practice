@@ -1,0 +1,13 @@
+my_list=[1,2,3,4,5]
+my_list.insert(2,11)
+print('Modofied list:',my_list)
+my_list.remove(4)
+print('Modofied list:',my_list)
+my_list.append(6)
+print('Modofied list:',my_list)
+list_length=len(my_list)
+print('list.length:',list_length)
+popped_element=my_list.pop()
+print('popped_element:',popped_element)
+my_list.clear()
+print('Modofied list:',my_list)

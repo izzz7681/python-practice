@@ -1,0 +1,11 @@
+my_tuple=(1,2,3,4,5,6,7)
+print('Tuple is',my_tuple)
+print(my_tuple[5])
+print('Element at third position is',my_tuple[2])
+for e in my_tuple:
+    print(e)
+print('Tuple slicing',my_tuple[1:7])
+print('Tuple slicing',my_tuple[:])
+print('Tuple slicing',my_tuple[::-1])
+print('Tuple slicing',my_tuple[0:6:2])
+print('Tuple slicing',my_tuple[0:6:3])
